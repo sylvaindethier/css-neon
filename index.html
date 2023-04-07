@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Neon box & text</title>
+    <link rel="stylesheet" href="./neon.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            place-items: center;
+
+            background: #222222;
+            color: #f1f1f1;
+        }
+
+        .card {
+            display: grid;
+            place-items: center;
+            width: 50%;
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+
+        .card h1 {
+            font-size: 10rem;
+            font-family: cursive, sans-serif;
+            color: #f1f1f1e3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card neon neon-box neon_color__h239">
+        <h1 class="neon neon-text neon_color__h239">Neon</h1>
+    </div>
+</body>
+
+</html>
